@@ -1,9 +1,5 @@
 @import '~antd/dist/antd.css';
 
-.app {
-  padding: 10px;
-}
-
 .card {
   margin-bottom: 15px;
 }
