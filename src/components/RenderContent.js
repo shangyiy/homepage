@@ -1,9 +1,9 @@
 import React from 'react';
 import '../css/RenderContent.css';
-import { Home } from './Home';
-import { Experience } from './Experience';
-import { Projects } from './Projects';
-import { Volunteer } from './Volunteer';
+import { Home } from '../pages/Home';
+import { Experience } from '../pages/Experience';
+import { Projects } from '../pages/Projects';
+import { Volunteer } from '../pages/Volunteer';
  
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
