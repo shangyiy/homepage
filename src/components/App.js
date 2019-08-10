@@ -39,15 +39,15 @@ class App extends React.Component{
                 </Menu.Item>
 
                 <Menu.Item key="2">
-                  <Icon type="project" />
-                  <span>Projects</span>
-                  <Link to="/projects" />
-                </Menu.Item>
-
-                <Menu.Item key="3">
                   <Icon type="code" />
                   <span>Experience</span>
                   <Link to="/experience" />
+                </Menu.Item>
+
+                <Menu.Item key="3">
+                  <Icon type="project" />
+                  <span>Projects</span>
+                  <Link to="/projects" />
                 </Menu.Item>
 
                 <Menu.Item key="4">
@@ -57,24 +57,24 @@ class App extends React.Component{
                 </Menu.Item>
 
                 <SubMenu
-                key="sub1"
-                title={
-                  <span>
-                  <Icon type="user" />
-                  <span>Links</span>
-                  </span>
-                }
+                  key="sub1"
+                  title={
+                    <span>
+                    <Icon type="user" />
+                    <span>Links</span>
+                    </span>
+                  }
                 >
                   <Menu.Item key="5">
                     <Icon type="linkedin" />
                     <span>LinkedIn</span>
-                    <a href="https://linkedin.com/in/shang-yi-yu/">Content</a>
+                    <a href="https://linkedin.com/in/shang-yi-yu/" rel="noopener noreferrer" target="_blank">Content</a>
                   </Menu.Item>
 
                   <Menu.Item key="6">
                     <Icon type="profile" />
                     <span>Resume</span>
-                    <a href="/" target='_blank'>Content</a>
+                    <a href="https://drive.google.com/file/d/1raUjOtAi-ECxE5439p_zij2NU3wnQYlH/view?usp=sharing" rel="noopener noreferrer" target="_blank">Content</a>
                   </Menu.Item>
 
                 </SubMenu>
