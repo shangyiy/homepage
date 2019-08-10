@@ -6,7 +6,7 @@ import { Experience } from '../pages/Experience';
 import { Projects } from '../pages/Projects';
 import { Volunteer } from '../pages/Volunteer';
 
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { HashRouter  as Router, Route, Link } from "react-router-dom";
 import { Layout, Menu, Icon } from 'antd';
 
 import '../css/App.css';
