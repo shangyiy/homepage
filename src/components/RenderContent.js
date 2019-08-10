@@ -10,7 +10,7 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import { Layout, Menu, Icon } from 'antd';
 
 const { Content, Sider } = Layout;
-
+const { SubMenu } = Menu;
 export class RenderContent extends React.Component {
 
     render () {
@@ -18,6 +18,7 @@ export class RenderContent extends React.Component {
             <Router>
                 <Layout>
                     <Sider 
+                        width={250}
                         style={{ 
                             height: '100vh',
                             position: "fixed",
@@ -51,6 +52,15 @@ export class RenderContent extends React.Component {
                                 <Link to="/volunteer" />
                             </Menu.Item>
 
+                            <SubMenu
+                            key="sub1"
+                            title={
+                                <span>
+                                <Icon type="user" />
+                                <span>Links</span>
+                                </span>
+                            }
+                            >
                             <Menu.Item key="5">
                                 <Icon type="linkedin" />
                                 <span>LinkedIn</span>
@@ -62,11 +72,12 @@ export class RenderContent extends React.Component {
                                 <span>Resume</span>
                                 <a href="/" target='_blank'>Content</a>
                             </Menu.Item>
-                            
+
+                            </SubMenu>
                         </Menu>
                     </Sider>
 
-                    <Layout style={{ marginLeft: 200, top: 0}}>
+                    <Layout style={{ marginLeft: 250, top: 0}}>
                         <Content style={{ margin: '16px 16px', padding: 24, background: '#fff', minHeight: 700 }}>
                             <Route exact path="/" component={Home} />
                             <Route path="/experience" component={Experience} />
