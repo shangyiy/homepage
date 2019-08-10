@@ -1,11 +1,12 @@
 import React from 'react';
-import { Card } from 'antd';
+import { Card, Icon } from 'antd';
 
 export class Projects extends React.Component {
     render () {
         return (
             <div className="projects">
                 <h2>Projects</h2>
+                <br/>
                 {this.renderProjects()}
             </div>
         )
@@ -14,9 +15,16 @@ export class Projects extends React.Component {
     renderProjects() {
         return(
             <div>
-                <Card className="card" title="'mOkay" extra={<a href="https://github.com/charlie6118/HAHackathonRIGA">GitHub</a>}>
+                <Card 
+                    size='small'
+                    className="card" 
+                    title="'mOkay" 
+                    extra={<a href="https://github.com/charlie6118/HAHackathonRIGA">
+                            <Icon type="github" />
+                           </a>}
+                >
                     <p>
-                        <h3>Garage48 Hardware and Art Hackathon, Solution for elderly who lived alone</h3>
+                        <h3>Garage48 Hardware and Art Hackathon - Solution for elderly who lived alone</h3>
                         <br />
                         <li>
                             <ul>•	Provide a solution to take care of elder people who lived alone</ul>
@@ -28,9 +36,16 @@ export class Projects extends React.Component {
                     </p>
                 </Card>
             
-                <Card className="card" title="'CubeSAt Antenna Tracking System" extra={<a href="https://github.com/Achaad/SatelliteHackathon">GitHub</a>}>
+                <Card 
+                    size='small'
+                    className="card" 
+                    title="CubeSat Antenna Tracking System" 
+                    extra={<a href="https://github.com/Achaad/SatelliteHackathon">
+                            <Icon type="github" />
+                           </a>}
+                >
                     <p>
-                        <h3>TTÜ100 Satellite Hackathon - "Antenna Tracking System"</h3>
+                        <h3>TTÜ100 Satellite Hackathon - Antenna Tracking System</h3>
                         <br />
                         <li>
                             <ul>•	Build a ground station antenna tracking system by Python</ul>
