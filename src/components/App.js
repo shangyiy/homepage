@@ -31,7 +31,11 @@ class App extends React.Component{
 
   renderSideBer () {
     return (
-      <Sider className="side-bar" width={250}>
+      <Sider 
+        className="side-bar" 
+        width={250}
+        breakpoint="lg"
+        collapsedWidth="0">
         <Avatar />
         <Menu theme="dark" defaultSelectedKeys={['1']} mode="inline">
           <Menu.Item key="1">
