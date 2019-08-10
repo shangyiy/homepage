@@ -2,11 +2,6 @@ import React from 'react';
 import '../css/page.css';
 import { Card, Row, Col} from 'antd';
 
-const gridStyle = {
-    width: '25%',
-    height: '25%', 
-};
-
 export class Volunteer extends React.Component {
     render () {
         return (
@@ -17,55 +12,6 @@ export class Volunteer extends React.Component {
             </div>
         )
     } 
-    
-    renderVolunteeringGrid () {
-        return(
-            <Card className="card" vertical-fill>
-                <Card.Grid style={gridStyle}>
-                    <p>
-                        <h3>Volunteer Lecturer @ Erasmus In School</h3>
-                        <br />
-                        Served as a volunteer to present culture and personal experience to Estonian high school students
-                    </p>
-                </Card.Grid>
-                <Card.Grid style={gridStyle}>
-                    <p>
-                        <h3>Volunteer @ PyCon Estonia</h3>
-                        <br />
-                        Served as a volunteer to assist with the conference
-                    </p>
-                </Card.Grid>
-                <Card.Grid style={gridStyle}>
-                    <p>
-                        <h3>Student Volunteer @ World Vision</h3>
-                        <br />
-                        Served as a volunteer to organize and record the event 30 hours famine in Taipei Tech
-                    </p>
-                </Card.Grid>
-                <Card.Grid style={gridStyle}>
-                    <p>
-                        <h3>Student Volunteer @ WowAfrica</h3>
-                        <br />
-                        Served as a volunteer to assist a team of fourteen to promote African culture and record the event
-                    </p>
-                </Card.Grid>
-                <Card.Grid style={gridStyle}>
-                    <p>
-                        <h3>Elderly Care Volunteer @ 私立松瑞園老人養護所</h3>
-                        <br />
-                        Served as an emotional support and companionship for elderly people
-                    </p>
-                </Card.Grid>
-                <Card.Grid style={gridStyle}>
-                    <p>
-                        <h3>Student Volunteer @ 北科牡丹服務隊</h3>
-                        <br />
-                        Served as educational support and companionship for indigenous children
-                    </p>
-                </Card.Grid>
-            </Card>
-        )
-    }
     
     renderVolunteering () {
         return (
