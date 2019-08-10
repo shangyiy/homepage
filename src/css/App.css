@@ -1,0 +1,5 @@
+@import '~antd/dist/antd.css';
+
+.card {
+  margin-bottom: 15px;
+}
