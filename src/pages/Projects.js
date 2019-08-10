@@ -1,5 +1,6 @@
 import React from 'react';
 import { Card, Icon } from 'antd';
+import '../css/page.css'
 
 export class Projects extends React.Component {
     render () {

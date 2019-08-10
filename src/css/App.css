@@ -1,5 +1,13 @@
 @import '~antd/dist/antd.css';
 
-.card {
-  margin-bottom: 15px;
+Sider.side-bar {
+  height: '100vh';
+  position: "fixed";
+  left: 0;
+  top: 0;
+}
+
+Layout.content-layout {
+  margin-left: 250;
+  top: 0;
 }

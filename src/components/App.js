@@ -21,15 +21,7 @@ class App extends React.Component{
       <Router>
         <div className="app">
           <Layout>
-            <Sider 
-              width={250}
-              style={{ 
-                height: '100vh',
-                position: "fixed",
-                left: 0,
-                top: 0,
-              }}
-            >
+            <Sider className="side-bar" width={250}>
               <Avatar />
               <Menu theme="dark" defaultSelectedKeys={['1']} mode="inline">
                 <Menu.Item key="1">
@@ -81,8 +73,8 @@ class App extends React.Component{
               </Menu>
             </Sider>
 
-            <Layout style={{ marginLeft: 250, top: 0}}>
-              <Content style={{ margin: '16px 16px', padding: 24, background: '#fff', minHeight: 700 }}>
+            <Layout className="content-layout">
+              <Content className="page-content" style={{ margin: '16px 16px', padding: 24, background: '#fff', minHeight: 700 }}>
                 <Route exact path="/" component={Home} />
                 <Route path="/experience" component={Experience} />
                 <Route path="/projects" component={Projects} />
