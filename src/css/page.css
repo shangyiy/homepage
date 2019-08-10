@@ -1,7 +1,13 @@
 @import '~antd/dist/antd.css';
 
+div.div-grid {
+  background: #ECECEC;
+  padding: 30px;
+}
+
 .card {
   margin-bottom: 15px;
+  height: 100%;
 }
 
 .card-row {

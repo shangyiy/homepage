@@ -15,10 +15,10 @@ export class Volunteer extends React.Component {
     
     renderVolunteering () {
         return (
-            <div style={{ background: '#ECECEC', padding: '30px' }}>
+            <div className="div-grid">
                 <Row gutter={16} type="flex" className="card-row">
                     <Col span={8}>
-                        <Card className="card" style={{height: '100%'}}>
+                        <Card className="card">
                             <p>
                                 <h3>Volunteer Lecturer @ Erasmus In School</h3>
                                 <br />
@@ -28,7 +28,7 @@ export class Volunteer extends React.Component {
                     </Col>
 
                     <Col span={8}>
-                        <Card className="card" style={{height: '100%'}}>
+                        <Card className="card">
                             <p>
                                 <h3>Volunteer @ PyCon Estonia</h3>
                                 <br />
@@ -38,7 +38,7 @@ export class Volunteer extends React.Component {
                     </Col>
 
                     <Col span={8}>
-                        <Card className="card" style={{height: '100%'}}>
+                        <Card className="card">
                             <p>
                                 <h3>Student Volunteer @ World Vision</h3>
                                 <br />
@@ -50,7 +50,7 @@ export class Volunteer extends React.Component {
 
                 <Row gutter={16} type="flex">
                     <Col span={8}>
-                        <Card className="card" style={{height: '100%'}}>
+                        <Card className="card">
                             <p>
                                 <h3>Student Volunteer @ WowAfrica</h3>
                                 <br />
@@ -60,7 +60,7 @@ export class Volunteer extends React.Component {
                     </Col>
 
                     <Col span={8}>
-                        <Card className="card" style={{height: '100%'}}>
+                        <Card className="card">
                             <p>
                                 <h3>Elderly Care Volunteer @ 私立松瑞園老人養護所</h3>
                                 <br />
@@ -70,7 +70,7 @@ export class Volunteer extends React.Component {
                     </Col>
 
                     <Col span={8}>
-                        <Card className="card" style={{height: '100%'}}>
+                        <Card className="card">
                             <p>
                                 <h3>Student Volunteer @ 北科牡丹服務隊</h3>
                                 <br />
