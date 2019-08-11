@@ -20,7 +20,7 @@ class App extends React.Component{
     return (
       <Router>
         <div className="app">
-          <Layout>
+          <Layout style={{height:"100vh"}}>
             {this.renderSideBer()}
             {this.renderContent()}
           </Layout>
