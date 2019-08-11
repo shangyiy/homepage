@@ -24,17 +24,13 @@ export class Projects extends React.Component {
                             <Icon type="github" />
                            </a>}
                 >
-                    <p>
-                        <h3>Garage48 Hardware and Art Hackathon - Solution for elderly who lived alone</h3>
-                        <br />
-                        <li>
-                            <ul>•	Provide a solution to take care of elder people who lived alone</ul>
-                            <ul>•	Build an IoT Device with Raspberry Pi and Python, integrate with the web app and smartphone</ul>
-                            <ul>•	Be responsible for code refactoring </ul>
-                            <ul>•	Assist with the team to develop SMS function and cascade web backend API</ul>
-                        </li>
-                        Co-author: Aljona Kurbatova, Ismayil Aliyev, Liina-Mai Kaunissaare, Martin Laan, Mathias Luik, Rauno Piirsalu, Роман Середа, Vladyslava Melnyk
-                    </p>
+                    <h3>Garage48 Hardware and Art Hackathon - Solution for elderly who lived alone</h3>
+                    <br />
+                    <br/>•	Provide a solution to take care of elder people who lived alone
+                    <br/>•	Build an IoT Device with Raspberry Pi and Python, integrate with the web app and smartphone
+                    <br/>•	Be responsible for code refactoring 
+                    <br/>•	Assist with the team to develop SMS function and cascade web backend API
+                    <br/>Co-author: Aljona Kurbatova, Ismayil Aliyev, Liina-Mai Kaunissaare, Martin Laan, Mathias Luik, Rauno Piirsalu, Роман Середа, Vladyslava Melnyk
                 </Card>
             
                 <Card 
@@ -45,16 +41,12 @@ export class Projects extends React.Component {
                             <Icon type="github" />
                            </a>}
                 >
-                    <p>
-                        <h3>TTÜ100 Satellite Hackathon - Antenna Tracking System</h3>
-                        <br />
-                        <li>
-                            <ul>•	Build a ground station antenna tracking system by Python</ul>
-                            <ul>•	Be responsible for satellite position computing with ephem</ul>
-                            <ul>•	Integrate modules and design CLI interface with team members</ul>
-                        </li>
-                        Co-author: Anton Perepelenko, Hiromasa Saito, Karl Matti
-                    </p>
+                    <h3>TTÜ100 Satellite Hackathon - Antenna Tracking System</h3>
+                    <br/>
+                    <br/>•	Build a ground station antenna tracking system by Python
+                    <br/>•	Be responsible for satellite position computing with ephem
+                    <br/>•	Integrate modules and design CLI interface with team members
+                    <br/>Co-author: Anton Perepelenko, Hiromasa Saito, Karl Matti
                 </Card>
             </div>
         )
