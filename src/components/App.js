@@ -51,13 +51,13 @@ class App extends React.Component{
           </Menu.Item>
 
           <Menu.Item key="3">
-            <Icon type="project" />
+            <Icon type="bulb" />
             <span>Projects</span>
             <Link to="/projects" />
           </Menu.Item>
 
           <Menu.Item key="4">
-            <Icon type="heart" />
+            <Icon type="team" />
             <span>Volunteer</span>
             <Link to="/volunteer" />
           </Menu.Item>
