@@ -88,7 +88,6 @@ class App extends React.Component{
               <span>Resume</span>
               <a href="https://drive.google.com/file/d/1raUjOtAi-ECxE5439p_zij2NU3wnQYlH/view?usp=sharing" rel="noopener noreferrer" target="_blank">Content</a>
             </Menu.Item>
-
           </SubMenu>
         </Menu>
       </Sider>
