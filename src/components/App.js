@@ -78,11 +78,16 @@ class App extends React.Component{
             </Menu.Item>
 
             <Menu.Item key="6">
+              <Icon type="github" />
+              <span>Github</span>
+              <a href="https://github.com/charlie6118" rel="noopener noreferrer" target="_blank">Content</a>
+            </Menu.Item>
+
+            <Menu.Item key="7">
               <Icon type="profile" />
               <span>Resume</span>
               <a href="https://drive.google.com/file/d/1raUjOtAi-ECxE5439p_zij2NU3wnQYlH/view?usp=sharing" rel="noopener noreferrer" target="_blank">Content</a>
             </Menu.Item>
-
           </SubMenu>
         </Menu>
       </Sider>
