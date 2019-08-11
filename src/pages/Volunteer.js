@@ -17,7 +17,7 @@ export class Volunteer extends React.Component {
         return (
             <div className="div-grid">
                 <Row gutter={16} type="flex" className="card-row">
-                    <Col span={8}>
+                    <Col span={8} className='card-col'>
                         <Card className="card">
                             <p>
                                 <h3>Volunteer Lecturer @ Erasmus In School</h3>
@@ -27,7 +27,7 @@ export class Volunteer extends React.Component {
                         </Card>
                     </Col>
 
-                    <Col span={8}>
+                    <Col span={8} className='card-col'>
                         <Card className="card">
                             <p>
                                 <h3>Volunteer @ PyCon Estonia</h3>
@@ -37,7 +37,7 @@ export class Volunteer extends React.Component {
                         </Card>
                     </Col>
 
-                    <Col span={8}>
+                    <Col span={8} className='card-col'>
                         <Card className="card">
                             <p>
                                 <h3>Student Volunteer @ World Vision</h3>
@@ -49,7 +49,7 @@ export class Volunteer extends React.Component {
                 </Row>
 
                 <Row gutter={16} type="flex">
-                    <Col span={8}>
+                    <Col span={8} className='card-col'>
                         <Card className="card">
                             <p>
                                 <h3>Student Volunteer @ WowAfrica</h3>
@@ -59,7 +59,7 @@ export class Volunteer extends React.Component {
                         </Card>
                     </Col>
 
-                    <Col span={8}>
+                    <Col span={8} className='card-col'>
                         <Card className="card">
                             <p>
                                 <h3>Elderly Care Volunteer @ 私立松瑞園老人養護所</h3>
@@ -69,7 +69,7 @@ export class Volunteer extends React.Component {
                         </Card>
                     </Col>
 
-                    <Col span={8}>
+                    <Col span={8} className='card-col'>
                         <Card className="card">
                             <p>
                                 <h3>Student Volunteer @ 北科牡丹服務隊</h3>
