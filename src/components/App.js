@@ -37,7 +37,7 @@ class App extends React.Component{
         breakpoint="lg"
         collapsedWidth="0">
         <Avatar />
-        <Menu theme="dark" defaultSelectedKeys={['1']} mode="inline">
+        <Menu theme="dark" mode="inline">
           <Menu.Item key="1">
             <Icon type="home" />
             <span>Home</span>
