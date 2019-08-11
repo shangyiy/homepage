@@ -66,7 +66,7 @@ class App extends React.Component{
             key="sub1"
             title={
               <span>
-              <Icon type="user" />
+              <Icon type="link" />
               <span>Links</span>
               </span>
             }
