@@ -86,7 +86,7 @@ class App extends React.Component{
             <Menu.Item key="7">
               <Icon type="profile" />
               <span>Resume</span>
-              <a href="https://drive.google.com/file/d/1raUjOtAi-ECxE5439p_zij2NU3wnQYlH/view?usp=sharing" rel="noopener noreferrer" target="_blank">Content</a>
+              <a href="https://drive.google.com/file/d/1Ua4q2kdkrYhzB_zgBMzFGSbEE0nrtvoT/view?usp=sharing" rel="noopener noreferrer" target="_blank">Content</a>
             </Menu.Item>
           </SubMenu>
         </Menu>
