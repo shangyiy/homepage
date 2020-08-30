@@ -6,10 +6,16 @@ export function Home () {
             <h2>Home</h2>
             <br/>
             <p>
-            Interested in software engineering and software development. 
+            Software engineer with extensive experience developing high-performance backend service and building up high-availability cloud infrastructure for the cybersecurity industry.
             <br/>
-            Started coding from CS50's Introduction to Computer Science, through the problem sets then fully immersed in the world of computer science, the "ah-ha" moment always amazed me. 
+            Interested in software engineering and system design. Agree that communication and collaboration are keys to team and customer success.
             </p>
+            <br/>
+            Skills:
+            Programming Language: Python(PySpark, WebService), Golang(WebService)
+            AWS Cloud Service: Elastic Kubernetes Service(EKS), Identity and Access Management(IAM), SQS, RDS, CloudFormation, APIGateway, Lambda, Web Application Firewall(WAF)
+            <br/>
+            Contact: shang.yi.yu.tw@gmail.com 
         </div>
     )
 }
