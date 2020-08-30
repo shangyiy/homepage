@@ -97,7 +97,7 @@ class App extends React.Component{
   renderContent () {
     return (
       <Layout className="content-layout">
-        <Content className="page-content" style={{ margin: '16px 16px', padding: 24, background: '#fff', minHeight: 700 }}>
+        <Content className="page-content" style={{ margin: '16px 16px', padding: 24, background: '#fff', minHeight: "auto" }}>
           <Route exact path="/" component={Home} />
           <Route path="/experience" component={Experience} />
           <Route path="/projects" component={Projects} />
