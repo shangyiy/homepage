@@ -10,16 +10,30 @@ export function Experience () {
                 <Timeline.Item>
                     <h4>Software Engineer @ Trend Micro</h4>
                     Taipei Taiwan
+                    <br/>
+                    <br/>
+                    - Develop microservices that aim for 15k queries per second to provide real-time email analysis
+                    <br/>
+                    - Work on cloud infrastructure & data pipeline to achieve email behavior analysis
+                    <br/>
+                    - Migrate legacy services from Chef to Kubernetes
+                    <br/>
                 </Timeline.Item>
 
                 <Timeline.Item color="green">
                     <h4>Front-end Developer Intern @ NuLand</h4>
                     Tallinn Estonia
+                    <br/>
+                    <br/>
+                    - Developed frontend UI for blockchain web application using React
                 </Timeline.Item>
 
                 <Timeline.Item color="green">
                     <h4>Front-end Developer Intern @ Sunbird Software</h4>
                     Taipei Taiwan
+                    <br/>
+                    <br/>
+                    - Migrated enterprise DCIM software from ExtJS to AngularJS
                 </Timeline.Item>
 
                 <Timeline.Item color="grey">

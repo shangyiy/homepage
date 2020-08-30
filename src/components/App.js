@@ -86,7 +86,7 @@ class App extends React.Component{
             <Menu.Item key="7">
               <Icon type="profile" />
               <span>Resume</span>
-              <a href="https://drive.google.com/file/d/1Ua4q2kdkrYhzB_zgBMzFGSbEE0nrtvoT/view?usp=sharing" rel="noopener noreferrer" target="_blank">Content</a>
+              <a href="https://drive.google.com/file/d/1UmYUrw1AkcMi8IjvX6faZBL0jDfKGLOb/view?usp=sharing" rel="noopener noreferrer" target="_blank">Content</a>
             </Menu.Item>
           </SubMenu>
         </Menu>
@@ -97,7 +97,7 @@ class App extends React.Component{
   renderContent () {
     return (
       <Layout className="content-layout">
-        <Content className="page-content" style={{ margin: '16px 16px', padding: 24, background: '#fff', minHeight: 700 }}>
+        <Content className="page-content" style={{ margin: '16px 16px', padding: 24, background: '#fff', minHeight: "auto" }}>
           <Route exact path="/" component={Home} />
           <Route path="/experience" component={Experience} />
           <Route path="/projects" component={Projects} />
