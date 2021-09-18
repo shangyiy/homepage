@@ -1,4 +1,5 @@
 import React from 'react';
+import Icon from '@ant-design/icons';
 
 import { Avatar } from './Avatar';
 import { Home } from '../pages/Home';
@@ -6,21 +7,22 @@ import { Experience } from '../pages/Experience';
 import { Projects } from '../pages/Projects';
 import { Volunteer } from '../pages/Volunteer';
 
-import { HashRouter  as Router, Route, Link } from "react-router-dom";
-import { Layout, Menu, Icon } from 'antd';
+import { HashRouter as Router, Route, Link } from "react-router-dom";
+import { Layout, Menu } from 'antd';
+
 
 import '../css/App.css';
 
 const { Content, Sider } = Layout;
 const { SubMenu } = Menu;
 
-class App extends React.Component{
+class App extends React.Component {
 
-  render () {
+  render() {
     return (
       <Router>
         <div className="app">
-          <Layout style={{height:"100vh"}}>
+          <Layout style={{ height: "100vh" }}>
             {this.renderSideBer()}
             {this.renderContent()}
           </Layout>
@@ -29,10 +31,10 @@ class App extends React.Component{
     )
   }
 
-  renderSideBer () {
+  renderSideBer() {
     return (
-      <Sider 
-        className="side-bar" 
+      <Sider
+        className="side-bar"
         width={250}
         breakpoint="lg"
         collapsedWidth="0">
@@ -66,27 +68,24 @@ class App extends React.Component{
             key="sub1"
             title={
               <span>
-              <Icon type="link" />
-              <span>Links</span>
+                <Icon type="link" />
+                <span>Links</span>
               </span>
             }
           >
             <Menu.Item key="5">
               <Icon type="linkedin" />
-              <span>LinkedIn</span>
-              <a href="https://linkedin.com/in/shang-yi-yu/" rel="noopener noreferrer" target="_blank">Content</a>
+              <a href="https://linkedin.com/in/shang-yi-yu/" rel="noopener noreferrer" target="_blank">LinkedIn</a>
             </Menu.Item>
 
             <Menu.Item key="6">
               <Icon type="github" />
-              <span>Github</span>
-              <a href="https://github.com/charlie6118" rel="noopener noreferrer" target="_blank">Content</a>
+              <a href="https://github.com/charlie6118" rel="noopener noreferrer" target="_blank">Github</a>
             </Menu.Item>
 
             <Menu.Item key="7">
               <Icon type="profile" />
-              <span>Resume</span>
-              <a href="https://drive.google.com/file/d/1UmYUrw1AkcMi8IjvX6faZBL0jDfKGLOb/view?usp=sharing" rel="noopener noreferrer" target="_blank">Content</a>
+              <a href="https://drive.google.com/file/d/1UmYUrw1AkcMi8IjvX6faZBL0jDfKGLOb/view?usp=sharing" rel="noopener noreferrer" target="_blank">Resume</a>
             </Menu.Item>
           </SubMenu>
         </Menu>
@@ -94,7 +93,7 @@ class App extends React.Component{
     )
   }
 
-  renderContent () {
+  renderContent() {
     return (
       <Layout className="content-layout">
         <Content className="page-content" style={{ margin: '16px 16px', padding: 24, background: '#fff', minHeight: "auto" }}>
