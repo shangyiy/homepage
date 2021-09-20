@@ -1,7 +1,9 @@
 import React from 'react';
 import Icon from '@ant-design/icons';
 
-import { Avatar } from './Avatar';
+// import { Avatar } from './Avatar';
+import { Avatar } from 'antd';
+import profile from '../assets/profile.png';
 import { Home } from '../pages/Home';
 import { Experience } from '../pages/Experience';
 import { Projects } from '../pages/Projects';
@@ -38,7 +40,13 @@ class App extends React.Component {
         width={250}
         breakpoint="lg"
         collapsedWidth="0">
-        <Avatar />
+        <div className="avatar-image" >
+          <Avatar
+            src={profile}
+            size={220}
+            style={{ margin: '15px' }}
+            alt="avatar" />
+        </div>
         <Menu theme="dark" mode="inline">
           <Menu.Item key="1">
             <Icon type="home" />
@@ -96,7 +104,7 @@ class App extends React.Component {
   renderContent() {
     return (
       <Layout className="content-layout">
-        <Content className="page-content" style={{ margin: '16px 16px', padding: 24, background: '#fff', minHeight: "auto" }}>
+        <Content className="page-content" style={{ margin: '16px', padding: 24, background: '#fff', minHeight: "auto" }}>
           <Route exact path="/" component={Home} />
           <Route path="/experience" component={Experience} />
           <Route path="/projects" component={Projects} />
