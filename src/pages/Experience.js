@@ -1,66 +1,63 @@
 import React from 'react';
 import { Timeline } from 'antd';
 
-export function Experience () {
+export function Experience() {
     return (
         <div className='Experience'>
             <h2>Experience</h2>
             <br />
-            <Timeline mode="alternate">
+            <Timeline>
                 <Timeline.Item>
-                    <h4>Software Engineer @ Trend Micro</h4>
+                    <h4>Software Engineer @ Trend Micro Vision One Endpoint Inventory</h4>
                     Taipei Taiwan
-                    <br/>
-                    <br/>
-                    - Develop microservices that aim for 15k queries per second to provide real-time email analysis
-                    <br/>
-                    - Work on cloud infrastructure & data pipeline to achieve email behavior analysis
-                    <br/>
-                    - Migrate legacy services from Chef to Kubernetes
-                    <br/>
+                    <br />
+                    - Host design meetings and coordinate between different team stakeholders
+                    <br />
+                    - Conduct task breakdown based on given feature request - including design, development, monitoring, and L1/ L2 test
+                    <br />
+                    - Develop event-driven architecture using Golang and Kafka to ensure service reliability
+                    <br />
+                    - Monitor service by prometheus-operator - design proper metrics and do aggregation by prometheus and thanos, notify developer by alertmanager
+                    <br />
+                    - Conduct end-to-end testing between different teams to deliver value to customers
+                    <br />
+                    - Develop and maintain cloud infrastructure including AWS, MongoDB, Opsgenie using Terraform
+                    <br />
+                </Timeline.Item>
+
+                <Timeline.Item color="green">
+                    <h4>Software Engineer @ Trend Micro ERS</h4>
+                    Taipei Taiwan
+                    <br />
+                    - Developed Golang applications using gin lib with P90 response time less than 100ms
+                    <br />
+                    - Built a serverless datalake using PySpark on AWS EMR, AWS Step Function, AWS S3 to process 10+ million mail data per day
+                    <br />
+                    - Built serverless RESTful API using AWS APIGateway for MySQL database operation for 10+ million operations per day using AWS CloudFormation
+                    <br />
+                    - Decoupled monolithic systems into microservice architecture and migrated to EKS, reduce 80% deployment time
+                    <br />
+                    - Containerized legacy services involving Python Flask/ PHP CakePHP/ Ruby on Rail/ Perl/ Shell Script
+                    <br />
+                    - Applied IAM Role for Kubernetes service account to achieve the Principle of Least Privilege(POLP)
+                    <br />
                 </Timeline.Item>
 
                 <Timeline.Item color="green">
                     <h4>Front-end Developer Intern @ NuLand</h4>
                     Tallinn Estonia
-                    <br/>
-                    <br/>
+                    <br />
                     - Developed frontend UI for blockchain web application using React
                 </Timeline.Item>
 
                 <Timeline.Item color="green">
                     <h4>Front-end Developer Intern @ Sunbird Software</h4>
                     Taipei Taiwan
-                    <br/>
-                    <br/>
+                    <br />
                     - Migrated enterprise DCIM software from ExtJS to AngularJS
                 </Timeline.Item>
 
-                <Timeline.Item color="grey">
-                    <h4>Englich Corner TA @ Taipei Tech</h4>
-                    Taipei Taiwan
-                </Timeline.Item>
-
-                <Timeline.Item color="grey">
-                    <h4>Kitchen Hand @ Tea Garden</h4>
-                    Canning Vale Western Australia
-                </Timeline.Item>
-
-                <Timeline.Item color="grey">
-                    <h4>Cooker @ JC Product</h4>
-                    Osborne Park Western Australia
-                </Timeline.Item>
-
-                <Timeline.Item color="grey">
-                    <h4>Waiter @ 四平街富霸王豬腳</h4>
-                    Taipei Taiwan
-                </Timeline.Item>
-
-                <Timeline.Item color="grey">
-                    <h4>Work Exchange @ 烏石港北堤衝浪民宿</h4>
-                    Ilan  Taiwan
-                </Timeline.Item>
             </Timeline>
         </div>
     )
-} 
+}
