@@ -14,13 +14,8 @@ div.div-grid {
   margin-bottom: 15px;
 }
 
-@media only screen and (max-width: 900px) {
+@media screen and (max-width: 992px) {
   .card-col {
-    width: 100%;
-    margin-bottom: 15px;
-  }
-
-  .card-row {
-    margin-bottom: 0px;
+    flex: 100% !important;
   }
 }
