@@ -47,7 +47,7 @@ class App extends React.Component {
             style={{ margin: '15px' }}
             alt="avatar" />
         </div>
-        <Menu theme="dark" mode="inline">
+        <Menu theme="dark" mode="inline" defaultSelectedKeys={['1']}> 
           <Menu.Item key="1">
             <Icon type="home" />
             <span>Home</span>
