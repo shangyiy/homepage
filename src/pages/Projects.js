@@ -21,7 +21,7 @@ export class Projects extends React.Component {
                     size='small'
                     className="card"
                     title="'mOkay"
-                    extra={<a href="https://github.com/charlie6118/HAHackathonRIGA">
+                    extra={<a href="https://github.com/shangyiy/HAHackathonRIGA">
                         <Icon type="github" />
                     </a>}
                 >
