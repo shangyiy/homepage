@@ -88,7 +88,7 @@ class App extends React.Component {
 
             <Menu.Item key="6">
               <Icon type="github" />
-              <a href="https://github.com/charlie6118" rel="noopener noreferrer" target="_blank">Github</a>
+              <a href="https://github.com/shangyiy" rel="noopener noreferrer" target="_blank">Github</a>
             </Menu.Item>
 
             <Menu.Item key="7">
